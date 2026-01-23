@@ -1,0 +1,2 @@
+city,country,observed_at_utc,observed_at_unix,temp_c,feels_like_c,humidity_pct,pressure_hpa,wind_speed_mps,weather_main,weather_desc,source_file,ingested_at_utc
+Fredericton North,CA,2026-01-23T01:46:52+00:00,1769132812,-4.76,-9.66,77,1009,3.45,,,weather_E3A_20260122_214653.json,2026-01-23T01:58:47.905625+00:00

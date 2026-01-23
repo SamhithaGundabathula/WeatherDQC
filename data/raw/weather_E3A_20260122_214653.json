@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -66.3862,
+    "lat": 46.0401
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": -4.76,
+    "feels_like": -9.66,
+    "temp_min": -5.01,
+    "temp_max": -3.13,
+    "pressure": 1009,
+    "humidity": 77,
+    "sea_level": 1009,
+    "grnd_level": 999
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.45,
+    "deg": 252,
+    "gust": 9.61
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1769132812,
+  "sys": {
+    "type": 1,
+    "id": 798,
+    "country": "CA",
+    "sunrise": 1769083106,
+    "sunset": 1769116528
+  },
+  "timezone": -14400,
+  "id": 0,
+  "name": "Fredericton North",
+  "cod": 200
+}
