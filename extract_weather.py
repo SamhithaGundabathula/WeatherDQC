@@ -2,7 +2,8 @@ import json
 import requests
 from datetime import datetime
 
-API_KEY = "260ca98e3c6f4a013a97568554bfd03a"
+import os
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
 url = f"https://api.openweathermap.org/data/2.5/weather?zip=E3A,ca&units=metric&appid={API_KEY}"
 
 data = requests.get(url).json()
