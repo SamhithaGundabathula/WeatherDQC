@@ -6,3 +6,6 @@ CREATE TABLE IF NOT EXISTS dq_results (
     message TEXT,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
+
+
+CREATE DATABASE airflow_db;

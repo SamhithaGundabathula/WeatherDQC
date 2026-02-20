@@ -16,6 +16,18 @@ engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 )
 
+with engine.begin() as conn:
+    conn.execute(text("""
+        CREATE TABLE IF NOT EXISTS dq_results (
+            run_id TEXT,
+            check_name TEXT,
+            status TEXT,
+            metric_value DOUBLE PRECISION,
+            message TEXT,
+            created_at TIMESTAMPTZ DEFAULT NOW()
+        );
+    """))
+
 RUN_ID = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
 TODAY = date.today()  # local date is fine for daily run
 

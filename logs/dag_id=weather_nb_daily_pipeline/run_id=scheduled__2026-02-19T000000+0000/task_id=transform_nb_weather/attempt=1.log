@@ -22,3 +22,75 @@
 [2026-02-20T00:00:05.367+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
 [2026-02-20T00:00:05.405+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
 [2026-02-20T00:00:05.408+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:27:20.797+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:27:20.840+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:27:20.849+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:27:20.849+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:27:20.862+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): transform_nb_weather> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:27:20.871+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'transform_nb_weather', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmpka677253']
+[2026-02-20T01:27:20.874+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=181) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:27:20.875+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask transform_nb_weather
+[2026-02-20T01:27:20.876+0000] {standard_task_runner.py:64} INFO - Started process 183 to run task
+[2026-02-20T01:27:20.961+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [running]> on host 4e083851107f
+[2026-02-20T01:27:21.064+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='transform_nb_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:27:21.066+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:27:21.083+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:27:21.084+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python transform_weather.py']
+[2026-02-20T01:27:21.096+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:27:22.707+0000] {subprocess.py:93} INFO - Read : data/raw/weather_nb_20260220_012718.json
+[2026-02-20T01:27:22.707+0000] {subprocess.py:93} INFO - Saved: data/processed/weather_nb_clean.csv
+[2026-02-20T01:27:22.707+0000] {subprocess.py:93} INFO - Rows : 9
+[2026-02-20T01:27:22.776+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-20T01:27:22.776+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:27:22.804+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_nb_daily_pipeline, task_id=transform_nb_weather, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T012720, end_date=20260220T012722
+[2026-02-20T01:27:22.856+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-20T01:27:22.889+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:27:22.892+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:50:56.791+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:50:56.830+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:50:56.838+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:50:56.839+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:50:56.852+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): transform_nb_weather> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:50:56.859+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'transform_nb_weather', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmp45zaseow']
+[2026-02-20T01:50:56.862+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask transform_nb_weather
+[2026-02-20T01:50:56.863+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=184) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:50:56.864+0000] {standard_task_runner.py:64} INFO - Started process 185 to run task
+[2026-02-20T01:50:56.930+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [running]> on host 0cb99b34e638
+[2026-02-20T01:50:57.033+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='transform_nb_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:50:57.034+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:50:57.051+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:50:57.052+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python transform_weather.py']
+[2026-02-20T01:50:57.062+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:50:58.886+0000] {subprocess.py:93} INFO - Read : data/raw/weather_nb_20260220_015055.json
+[2026-02-20T01:50:58.886+0000] {subprocess.py:93} INFO - Saved: data/processed/weather_nb_clean.csv
+[2026-02-20T01:50:58.886+0000] {subprocess.py:93} INFO - Rows : 9
+[2026-02-20T01:50:58.981+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-20T01:50:58.982+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:50:59.015+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_nb_daily_pipeline, task_id=transform_nb_weather, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T015056, end_date=20260220T015059
+[2026-02-20T01:50:59.045+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-20T01:50:59.073+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:50:59.075+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:59:31.074+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:59:31.110+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:59:31.117+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:59:31.117+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:59:31.129+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): transform_nb_weather> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:59:31.136+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'transform_nb_weather', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmpu_gl9xq8']
+[2026-02-20T01:59:31.138+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=181) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:59:31.138+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask transform_nb_weather
+[2026-02-20T01:59:31.139+0000] {standard_task_runner.py:64} INFO - Started process 182 to run task
+[2026-02-20T01:59:31.206+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.transform_nb_weather scheduled__2026-02-19T00:00:00+00:00 [running]> on host a294d0596882
+[2026-02-20T01:59:31.295+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='transform_nb_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:59:31.296+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:59:31.308+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:59:31.310+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python transform_weather.py']
+[2026-02-20T01:59:31.317+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:59:33.009+0000] {subprocess.py:93} INFO - Read : data/raw/weather_nb_20260220_015928.json
+[2026-02-20T01:59:33.009+0000] {subprocess.py:93} INFO - Saved: data/processed/weather_nb_clean.csv
+[2026-02-20T01:59:33.010+0000] {subprocess.py:93} INFO - Rows : 9
+[2026-02-20T01:59:33.112+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-20T01:59:33.113+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:59:33.143+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_nb_daily_pipeline, task_id=transform_nb_weather, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T015931, end_date=20260220T015933
+[2026-02-20T01:59:33.160+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-20T01:59:33.186+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:59:33.189+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

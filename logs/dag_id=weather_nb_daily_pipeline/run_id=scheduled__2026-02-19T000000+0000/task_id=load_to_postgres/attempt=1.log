@@ -102,3 +102,165 @@ airflow.exceptions.AirflowException: Bash command failed. The command returned a
 [2026-02-20T00:00:07.264+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
 [2026-02-20T00:00:07.286+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
 [2026-02-20T00:00:07.290+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:27:23.638+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:27:23.673+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:27:23.679+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:27:23.680+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:27:23.692+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load_to_postgres> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:27:23.698+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'load_to_postgres', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmpj1z0_q_x']
+[2026-02-20T01:27:23.701+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask load_to_postgres
+[2026-02-20T01:27:23.702+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=200) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:27:23.703+0000] {standard_task_runner.py:64} INFO - Started process 202 to run task
+[2026-02-20T01:27:23.774+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [running]> on host 4e083851107f
+[2026-02-20T01:27:23.862+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='load_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:27:23.863+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:27:23.875+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:27:23.877+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python load_nb_to_postgres.py']
+[2026-02-20T01:27:23.884+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:27:25.144+0000] {subprocess.py:93} INFO - Loaded 9 rows into weather_nb
+[2026-02-20T01:27:25.219+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-20T01:27:25.220+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:27:25.248+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_nb_daily_pipeline, task_id=load_to_postgres, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T012723, end_date=20260220T012725
+[2026-02-20T01:27:25.280+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-20T01:27:25.299+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:27:25.302+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:50:59.690+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:50:59.734+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:50:59.743+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:50:59.744+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:50:59.761+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load_to_postgres> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:50:59.770+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'load_to_postgres', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmpwcwhe78g']
+[2026-02-20T01:50:59.773+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask load_to_postgres
+[2026-02-20T01:50:59.774+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=214) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:50:59.775+0000] {standard_task_runner.py:64} INFO - Started process 216 to run task
+[2026-02-20T01:50:59.872+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [running]> on host 0cb99b34e638
+[2026-02-20T01:50:59.982+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='load_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:50:59.983+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:50:59.999+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:51:00.000+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python load_nb_to_postgres.py']
+[2026-02-20T01:51:00.012+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:51:01.157+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-02-20T01:51:01.157+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+[2026-02-20T01:51:01.158+0000] {subprocess.py:93} INFO -     self.dialect.do_execute(
+[2026-02-20T01:51:01.158+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+[2026-02-20T01:51:01.158+0000] {subprocess.py:93} INFO -     cursor.execute(statement, parameters)
+[2026-02-20T01:51:01.159+0000] {subprocess.py:93} INFO - psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+[2026-02-20T01:51:01.159+0000] {subprocess.py:93} INFO - DETAIL:  Key (typname, typnamespace)=(weather_nb, 2200) already exists.
+[2026-02-20T01:51:01.160+0000] {subprocess.py:93} INFO - 
+[2026-02-20T01:51:01.160+0000] {subprocess.py:93} INFO - 
+[2026-02-20T01:51:01.161+0000] {subprocess.py:93} INFO - The above exception was the direct cause of the following exception:
+[2026-02-20T01:51:01.161+0000] {subprocess.py:93} INFO - 
+[2026-02-20T01:51:01.161+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-02-20T01:51:01.162+0000] {subprocess.py:93} INFO -   File "/opt/airflow/project/load_nb_to_postgres.py", line 28, in <module>
+[2026-02-20T01:51:01.162+0000] {subprocess.py:93} INFO -     df.to_sql("weather_nb", engine, if_exists="append", index=False)
+[2026-02-20T01:51:01.162+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+[2026-02-20T01:51:01.163+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2026-02-20T01:51:01.163+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.163+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3008, in to_sql
+[2026-02-20T01:51:01.164+0000] {subprocess.py:93} INFO -     return sql.to_sql(
+[2026-02-20T01:51:01.164+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^
+[2026-02-20T01:51:01.164+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 788, in to_sql
+[2026-02-20T01:51:01.164+0000] {subprocess.py:93} INFO -     return pandas_sql.to_sql(
+[2026-02-20T01:51:01.165+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.165+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1948, in to_sql
+[2026-02-20T01:51:01.165+0000] {subprocess.py:93} INFO -     table = self.prep_table(
+[2026-02-20T01:51:01.166+0000] {subprocess.py:93} INFO -             ^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.166+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1852, in prep_table
+[2026-02-20T01:51:01.166+0000] {subprocess.py:93} INFO -     table.create()
+[2026-02-20T01:51:01.166+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 936, in create
+[2026-02-20T01:51:01.167+0000] {subprocess.py:93} INFO -     self._execute_create()
+[2026-02-20T01:51:01.167+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 922, in _execute_create
+[2026-02-20T01:51:01.167+0000] {subprocess.py:93} INFO -     self.table.create(bind=self.pd_sql.con)
+[2026-02-20T01:51:01.168+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+[2026-02-20T01:51:01.168+0000] {subprocess.py:93} INFO -     bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+[2026-02-20T01:51:01.168+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2221, in _run_ddl_visitor
+[2026-02-20T01:51:01.169+0000] {subprocess.py:93} INFO -     visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+[2026-02-20T01:51:01.169+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+[2026-02-20T01:51:01.169+0000] {subprocess.py:93} INFO -     return meth(obj, **kw)
+[2026-02-20T01:51:01.170+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.170+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 899, in visit_table
+[2026-02-20T01:51:01.170+0000] {subprocess.py:93} INFO -     self.connection.execute(
+[2026-02-20T01:51:01.170+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+[2026-02-20T01:51:01.171+0000] {subprocess.py:93} INFO -     return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+[2026-02-20T01:51:01.171+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.171+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 80, in _execute_on_connection
+[2026-02-20T01:51:01.172+0000] {subprocess.py:93} INFO -     return connection._execute_ddl(
+[2026-02-20T01:51:01.172+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.172+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1477, in _execute_ddl
+[2026-02-20T01:51:01.173+0000] {subprocess.py:93} INFO -     ret = self._execute_context(
+[2026-02-20T01:51:01.173+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^^^^^^^^^
+[2026-02-20T01:51:01.173+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+[2026-02-20T01:51:01.173+0000] {subprocess.py:93} INFO -     self._handle_dbapi_exception(
+[2026-02-20T01:51:01.174+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+[2026-02-20T01:51:01.174+0000] {subprocess.py:93} INFO -     util.raise_(
+[2026-02-20T01:51:01.175+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-02-20T01:51:01.175+0000] {subprocess.py:93} INFO -     raise exception
+[2026-02-20T01:51:01.175+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+[2026-02-20T01:51:01.176+0000] {subprocess.py:93} INFO -     self.dialect.do_execute(
+[2026-02-20T01:51:01.176+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+[2026-02-20T01:51:01.176+0000] {subprocess.py:93} INFO -     cursor.execute(statement, parameters)
+[2026-02-20T01:51:01.177+0000] {subprocess.py:93} INFO - sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+[2026-02-20T01:51:01.177+0000] {subprocess.py:93} INFO - DETAIL:  Key (typname, typnamespace)=(weather_nb, 2200) already exists.
+[2026-02-20T01:51:01.177+0000] {subprocess.py:93} INFO - 
+[2026-02-20T01:51:01.177+0000] {subprocess.py:93} INFO - [SQL:
+[2026-02-20T01:51:01.178+0000] {subprocess.py:93} INFO - CREATE TABLE weather_nb (
+[2026-02-20T01:51:01.178+0000] {subprocess.py:93} INFO - 	city TEXT,
+[2026-02-20T01:51:01.178+0000] {subprocess.py:93} INFO - 	country TEXT,
+[2026-02-20T01:51:01.179+0000] {subprocess.py:93} INFO - 	observed_at_utc TIMESTAMP WITH TIME ZONE,
+[2026-02-20T01:51:01.179+0000] {subprocess.py:93} INFO - 	temp_c FLOAT(53),
+[2026-02-20T01:51:01.179+0000] {subprocess.py:93} INFO - 	humidity_pct BIGINT,
+[2026-02-20T01:51:01.179+0000] {subprocess.py:93} INFO - 	pressure_hpa BIGINT,
+[2026-02-20T01:51:01.180+0000] {subprocess.py:93} INFO - 	wind_speed_mps FLOAT(53),
+[2026-02-20T01:51:01.180+0000] {subprocess.py:93} INFO - 	weather_main TEXT,
+[2026-02-20T01:51:01.180+0000] {subprocess.py:93} INFO - 	weather_desc TEXT,
+[2026-02-20T01:51:01.181+0000] {subprocess.py:93} INFO - 	status BIGINT,
+[2026-02-20T01:51:01.181+0000] {subprocess.py:93} INFO - 	error FLOAT(53),
+[2026-02-20T01:51:01.181+0000] {subprocess.py:93} INFO - 	source_file TEXT,
+[2026-02-20T01:51:01.182+0000] {subprocess.py:93} INFO - 	ingested_at_utc TIMESTAMP WITH TIME ZONE
+[2026-02-20T01:51:01.182+0000] {subprocess.py:93} INFO - )
+[2026-02-20T01:51:01.182+0000] {subprocess.py:93} INFO - 
+[2026-02-20T01:51:01.182+0000] {subprocess.py:93} INFO - ]
+[2026-02-20T01:51:01.183+0000] {subprocess.py:93} INFO - (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2026-02-20T01:51:01.278+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-02-20T01:51:01.280+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:51:01.294+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-02-20T01:51:01.299+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=weather_nb_daily_pipeline, task_id=load_to_postgres, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T015059, end_date=20260220T015101
+[2026-02-20T01:51:01.312+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task load_to_postgres (Bash command failed. The command returned a non-zero exit code 1.; 216)
+[2026-02-20T01:51:01.354+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-02-20T01:51:01.377+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:51:01.384+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-02-20T01:59:34.266+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T01:59:34.300+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:59:34.307+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [queued]>
+[2026-02-20T01:59:34.307+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-20T01:59:34.318+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load_to_postgres> on 2026-02-19 00:00:00+00:00
+[2026-02-20T01:59:34.325+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_nb_daily_pipeline', 'load_to_postgres', 'scheduled__2026-02-19T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/weather_nb_pipeline.py', '--cfg-path', '/tmp/tmpcf8ouuav']
+[2026-02-20T01:59:34.327+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask load_to_postgres
+[2026-02-20T01:59:34.328+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-20T01:59:34.329+0000] {standard_task_runner.py:64} INFO - Started process 197 to run task
+[2026-02-20T01:59:34.392+0000] {task_command.py:426} INFO - Running <TaskInstance: weather_nb_daily_pipeline.load_to_postgres scheduled__2026-02-19T00:00:00+00:00 [running]> on host a294d0596882
+[2026-02-20T01:59:34.476+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_nb_daily_pipeline' AIRFLOW_CTX_TASK_ID='load_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T00:00:00+00:00'
+[2026-02-20T01:59:34.477+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T01:59:34.489+0000] {subprocess.py:63} INFO - Tmp dir *** location: /tmp
+[2026-02-20T01:59:34.491+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/project && python load_nb_to_postgres.py']
+[2026-02-20T01:59:34.498+0000] {subprocess.py:86} INFO - Output:
+[2026-02-20T01:59:35.615+0000] {subprocess.py:93} INFO - Loaded 9 rows into weather_nb
+[2026-02-20T01:59:35.713+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-20T01:59:35.714+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T01:59:35.746+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=weather_nb_daily_pipeline, task_id=load_to_postgres, run_id=scheduled__2026-02-19T00:00:00+00:00, execution_date=20260219T000000, start_date=20260220T015934, end_date=20260220T015935
+[2026-02-20T01:59:35.788+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-20T01:59:35.809+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T01:59:35.811+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

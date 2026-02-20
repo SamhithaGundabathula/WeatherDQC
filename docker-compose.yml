@@ -27,7 +27,7 @@ services:
     container_name: airflow_init
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/airflowdb
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/weatherdb
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
 
@@ -47,7 +47,7 @@ services:
     - airflow-init
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/airflowdb
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/weatherdb
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
     volumes:
@@ -66,7 +66,7 @@ services:
     - airflow-webserver
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/airflowdb
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://root:root@postgres:5432/weatherdb
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
     volumes:

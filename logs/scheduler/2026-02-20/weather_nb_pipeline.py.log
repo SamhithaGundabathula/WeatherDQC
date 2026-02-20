@@ -54,3 +54,386 @@
 [2026-02-20T00:03:55.399+0000] {logging_mixin.py:188} INFO - [2026-02-20T00:03:55.399+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-02-20T00:03:55.425+0000] {logging_mixin.py:188} INFO - [2026-02-20T00:03:55.425+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
 [2026-02-20T00:03:55.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.115 seconds
+[2026-02-20T01:26:36.131+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:26:36.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:26:36.137+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:26:36.194+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:26:36.620+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.619+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:26:36.633+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.632+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:26:36.644+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.643+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:26:36.644+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.644+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:26:36.656+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.656+0000] {dag.py:3111} INFO - Creating ORM DAG for weather_nb_daily_pipeline
+[2026-02-20T01:26:36.668+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:26:36.668+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:26:36.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.573 seconds
+[2026-02-20T01:27:06.953+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:06.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:27:06.957+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:06.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:06.981+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:07.018+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:07.017+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:27:07.041+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:07.041+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:27:07.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.120 seconds
+[2026-02-20T01:27:37.116+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:37.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:27:37.119+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:37.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:37.141+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:27:37.174+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:37.174+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:27:37.197+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:27:37.196+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:27:37.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.107 seconds
+[2026-02-20T01:28:07.388+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:07.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:28:07.391+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:07.391+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:07.414+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:07.448+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:07.447+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:28:07.470+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:07.470+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:28:07.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.109 seconds
+[2026-02-20T01:28:37.635+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:37.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:28:37.639+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:37.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:37.661+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:28:37.702+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:37.702+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:28:37.729+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:28:37.729+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:28:37.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T01:29:07.922+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:07.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:29:07.925+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:07.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:07.949+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:07.987+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:07.986+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:29:08.015+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:08.015+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:29:08.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.126 seconds
+[2026-02-20T01:29:38.155+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:38.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:29:38.159+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:38.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:38.183+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:29:38.222+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:38.221+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:29:38.249+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:29:38.249+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:29:38.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.125 seconds
+[2026-02-20T01:30:08.538+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:08.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:30:08.541+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:08.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:08.565+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:08.605+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:08.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:30:08.631+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:08.631+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:30:08.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.120 seconds
+[2026-02-20T01:30:38.826+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:38.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:30:38.830+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:38.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:38.859+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:30:38.898+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:38.898+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:30:38.924+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:30:38.924+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:30:38.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.134 seconds
+[2026-02-20T01:31:09.069+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:09.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:31:09.073+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:09.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:09.098+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:09.138+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:09.138+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:31:09.164+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:09.163+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:31:09.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.126 seconds
+[2026-02-20T01:31:39.364+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:39.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:31:39.368+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:39.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:39.399+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:31:39.447+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:39.447+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:31:39.477+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:31:39.477+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:31:39.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.146 seconds
+[2026-02-20T01:32:09.649+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:09.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:32:09.652+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:09.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:09.676+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:09.714+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:09.714+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:32:09.750+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:09.749+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:32:09.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.144 seconds
+[2026-02-20T01:32:39.936+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:39.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:32:39.946+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:39.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:40.016+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:32:40.060+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:40.060+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:32:40.090+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:32:40.090+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:32:40.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.201 seconds
+[2026-02-20T01:33:10.232+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:10.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:33:10.235+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:10.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:10.258+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:10.295+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:10.295+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:33:10.327+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:10.327+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:33:10.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.125 seconds
+[2026-02-20T01:33:40.614+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:40.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:33:40.617+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:40.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:40.640+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:33:40.674+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:40.674+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:33:40.697+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:33:40.697+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:33:40.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.109 seconds
+[2026-02-20T01:34:10.863+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:10.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:34:10.868+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:10.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:10.902+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:10.959+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:10.958+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:34:11.001+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:11.001+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:34:11.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.181 seconds
+[2026-02-20T01:34:41.133+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:41.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:34:41.136+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:41.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:41.161+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:34:41.200+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:41.199+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:34:41.225+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:34:41.225+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:34:41.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.120 seconds
+[2026-02-20T01:35:11.491+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:11.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:35:11.495+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:11.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:11.519+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:11.556+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:11.556+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:35:11.583+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:11.583+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:35:11.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T01:35:41.774+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:41.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:35:41.779+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:41.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:41.809+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:35:41.848+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:41.848+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:35:41.876+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:35:41.876+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:35:41.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.135 seconds
+[2026-02-20T01:36:12.082+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:12.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:36:12.085+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:12.085+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:12.112+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:12.150+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:12.150+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:36:12.176+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:12.175+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:36:12.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T01:36:42.399+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:42.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:36:42.402+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:42.402+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:42.427+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:36:42.464+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:42.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:36:42.488+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:36:42.488+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:36:42.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.118 seconds
+[2026-02-20T01:37:12.654+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:12.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:37:12.658+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:12.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:12.682+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:12.721+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:12.721+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:37:12.747+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:12.746+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:37:12.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.121 seconds
+[2026-02-20T01:37:42.930+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:42.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:37:42.933+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:42.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:42.958+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:37:42.993+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:42.993+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:37:43.016+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:37:43.016+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:37:43.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.113 seconds
+[2026-02-20T01:38:13.163+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:13.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:38:13.166+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:13.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:13.188+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:13.229+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:13.228+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:38:13.256+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:13.256+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:38:13.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.121 seconds
+[2026-02-20T01:38:43.469+0000] {processor.py:161} INFO - Started process (PID=480) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:43.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:38:43.474+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:43.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:43.508+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:38:43.563+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:43.563+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:38:43.590+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:38:43.590+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:38:43.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.156 seconds
+[2026-02-20T01:39:13.756+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:13.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:39:13.760+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:13.760+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:13.785+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:13.823+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:13.823+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:39:13.849+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:13.848+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:39:13.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T01:39:44.073+0000] {processor.py:161} INFO - Started process (PID=490) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:44.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:39:44.077+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:44.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:44.102+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:39:44.137+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:44.137+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:39:44.159+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:39:44.159+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:39:44.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.114 seconds
+[2026-02-20T01:40:14.369+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:14.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:40:14.372+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:14.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:14.394+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:14.430+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:14.430+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:40:14.455+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:14.454+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:40:14.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.115 seconds
+[2026-02-20T01:40:44.636+0000] {processor.py:161} INFO - Started process (PID=548) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:44.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:40:44.639+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:44.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:44.660+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:40:44.695+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:44.695+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:40:44.724+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:40:44.724+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:40:44.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.120 seconds
+[2026-02-20T01:41:14.933+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:14.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:41:14.939+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:14.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:14.964+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:15.003+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:15.003+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:41:15.028+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:15.028+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:41:15.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T01:41:45.226+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:45.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:41:45.231+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:45.230+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:45.259+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:41:45.299+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:45.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:41:45.325+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:41:45.325+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:41:45.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.132 seconds
+[2026-02-20T01:50:22.218+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:22.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:50:22.222+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:22.258+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:22.563+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.562+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:50:22.574+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.574+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:50:22.583+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.583+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:50:22.583+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.583+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:50:22.597+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.597+0000] {dag.py:3111} INFO - Creating ORM DAG for weather_nb_daily_pipeline
+[2026-02-20T01:50:22.610+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:22.610+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:50:22.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.427 seconds
+[2026-02-20T01:50:52.836+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:52.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:50:52.840+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:52.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:52.865+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:50:52.909+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:52.908+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:50:52.937+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:50:52.937+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:50:52.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.140 seconds
+[2026-02-20T01:51:23.006+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:23.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:51:23.009+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:23.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:23.035+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:23.072+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:23.072+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:51:23.096+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:23.096+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:51:23.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.120 seconds
+[2026-02-20T01:51:53.313+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:53.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:51:53.317+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:53.316+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:53.341+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:51:53.378+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:53.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:51:53.401+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:51:53.401+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:51:53.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.116 seconds
+[2026-02-20T01:52:23.622+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:23.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:52:23.626+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:23.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:23.650+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:23.690+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:23.689+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:52:23.718+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:23.717+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:52:23.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.125 seconds
+[2026-02-20T01:52:53.907+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:53.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:52:53.910+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:53.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:53.931+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:52:53.968+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:53.968+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:52:53.993+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:52:53.992+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:52:54.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.112 seconds
+[2026-02-20T01:53:24.173+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:24.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:53:24.176+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:24.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:24.200+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:24.237+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:24.237+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:53:24.263+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:24.263+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:53:24.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.119 seconds
+[2026-02-20T01:53:54.393+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:54.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:53:54.397+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:54.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:54.421+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:53:54.470+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:54.470+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:53:54.505+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:53:54.505+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:53:54.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.145 seconds
+[2026-02-20T01:54:24.766+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:24.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:54:24.769+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:24.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:24.790+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:24.824+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:24.824+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:54:24.847+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:24.846+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:54:24.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.107 seconds
+[2026-02-20T01:54:55.056+0000] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:55.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:54:55.059+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:55.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:55.081+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:54:55.118+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:55.118+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:54:55.142+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:54:55.142+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:54:55.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.117 seconds
+[2026-02-20T01:55:25.397+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:25.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:55:25.399+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:25.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:25.421+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:25.455+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:25.455+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:55:25.479+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:25.478+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:55:25.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.106 seconds
+[2026-02-20T01:55:55.641+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:55.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:55:55.644+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:55.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:55.665+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:55:55.703+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:55.703+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:55:55.727+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:55:55.727+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:55:55.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.123 seconds
+[2026-02-20T01:56:25.920+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:25.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:56:25.922+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:25.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:25.947+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:25.987+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:25.987+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:56:26.012+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:26.012+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:56:26.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.127 seconds
+[2026-02-20T01:56:56.273+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:56.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:56:56.276+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:56.276+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:56.296+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:56:56.329+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:56.329+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:56:56.351+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:56:56.351+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:56:56.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.105 seconds
+[2026-02-20T01:57:26.527+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:26.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:57:26.530+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:26.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:26.554+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:26.592+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:26.592+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:57:26.617+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:26.617+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:57:26.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.122 seconds
+[2026-02-20T01:57:56.843+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:56.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:57:56.846+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:56.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:56.871+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:57:56.905+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:56.904+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:57:56.928+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:57:56.928+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:57:56.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.114 seconds
+[2026-02-20T01:58:44.663+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:58:44.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:58:44.667+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:44.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:58:44.700+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:58:44.983+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:44.982+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:58:44.992+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:44.992+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:58:44.998+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:44.998+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:weather_nb_daily_pipeline
+[2026-02-20T01:58:44.999+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:44.998+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:58:45.010+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:45.010+0000] {dag.py:3111} INFO - Creating ORM DAG for weather_nb_daily_pipeline
+[2026-02-20T01:58:45.022+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:58:45.021+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:58:45.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.386 seconds
+[2026-02-20T01:59:15.262+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:15.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:59:15.268+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:15.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:15.297+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:15.342+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:15.342+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:59:15.368+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:15.367+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-19 00:00:00+00:00, run_after=2026-02-20 00:00:00+00:00
+[2026-02-20T01:59:15.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.152 seconds
+[2026-02-20T01:59:45.448+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:45.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T01:59:45.451+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:45.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:45.472+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T01:59:45.509+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:45.508+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T01:59:45.535+0000] {logging_mixin.py:188} INFO - [2026-02-20T01:59:45.535+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T01:59:45.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.112 seconds
+[2026-02-20T02:00:15.798+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:15.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T02:00:15.803+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:15.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:15.829+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:15.867+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:15.867+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T02:00:15.893+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:15.892+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T02:00:15.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.126 seconds
+[2026-02-20T02:00:46.050+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:46.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T02:00:46.055+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:46.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:46.080+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:00:46.118+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:46.118+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T02:00:46.144+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:00:46.144+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T02:00:46.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.124 seconds
+[2026-02-20T02:01:16.440+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:01:16.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_nb_pipeline.py for tasks to queue
+[2026-02-20T02:01:16.442+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:01:16.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:01:16.464+0000] {processor.py:840} INFO - DAG(s) 'weather_nb_daily_pipeline' retrieved from /opt/airflow/dags/weather_nb_pipeline.py
+[2026-02-20T02:01:16.496+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:01:16.496+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-20T02:01:16.519+0000] {logging_mixin.py:188} INFO - [2026-02-20T02:01:16.518+0000] {dag.py:3947} INFO - Setting next_dagrun for weather_nb_daily_pipeline to 2026-02-20 00:00:00+00:00, run_after=2026-02-21 00:00:00+00:00
+[2026-02-20T02:01:16.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_nb_pipeline.py took 0.101 seconds
