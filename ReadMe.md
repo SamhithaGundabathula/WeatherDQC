@@ -31,6 +31,11 @@ weatherDQC/
 ├── data/
 │   ├── raw/
 │   └── processed/
+│── steps/
+│   ├── Dashboardimage
+│   └── HowToRun.md
+│	└── envSetup.md
+│   
 │
 ├── dags/
 │   └── weather_nb_pipeline.py
