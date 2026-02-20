@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir streamlit pandas sqlalchemy psycopg2-binary
+
+COPY dq_dashboard.py /app/dq_dashboard.py
+
+EXPOSE 8501
+CMD ["streamlit", "run", "dq_dashboard.py", "--server.address=0.0.0.0", "--server.port=8501"]

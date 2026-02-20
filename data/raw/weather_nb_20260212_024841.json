@@ -1,0 +1,474 @@
+[
+  {
+    "query": "Fredericton,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -66.6656,
+        "lat": 45.9454
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -3.65,
+        "feels_like": -9.23,
+        "temp_min": -3.65,
+        "temp_max": -2.53,
+        "pressure": 999,
+        "humidity": 91,
+        "sea_level": 999,
+        "grnd_level": 989
+      },
+      "visibility": 9656,
+      "wind": {
+        "speed": 4.63,
+        "deg": 360
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864521,
+      "sys": {
+        "type": 2,
+        "id": 2005827,
+        "country": "CA",
+        "sunrise": 1770809734,
+        "sunset": 1770846384
+      },
+      "timezone": -14400,
+      "id": 5957776,
+      "name": "Fredericton",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Moncton,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -64.8019,
+        "lat": 46.1159
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -1.87,
+        "feels_like": -8.64,
+        "temp_min": -2.04,
+        "temp_max": -1.73,
+        "pressure": 998,
+        "humidity": 95,
+        "sea_level": 998,
+        "grnd_level": 990
+      },
+      "visibility": 8047,
+      "wind": {
+        "speed": 7.72,
+        "deg": 40
+      },
+      "snow": {
+        "1h": 0.36
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864521,
+      "sys": {
+        "type": 1,
+        "id": 898,
+        "country": "CA",
+        "sunrise": 1770809308,
+        "sunset": 1770845915
+      },
+      "timezone": -14400,
+      "id": 6076211,
+      "name": "Moncton",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Saint John,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -66.0677,
+        "lat": 45.2727
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -1.43,
+        "feels_like": -7.35,
+        "temp_min": -1.43,
+        "temp_max": -1.43,
+        "pressure": 996,
+        "humidity": 100,
+        "sea_level": 996,
+        "grnd_level": 990
+      },
+      "visibility": 1609,
+      "wind": {
+        "speed": 6.17,
+        "deg": 10
+      },
+      "snow": {
+        "1h": 0.82
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864521,
+      "sys": {
+        "type": 1,
+        "id": 930,
+        "country": "CA",
+        "sunrise": 1770809510,
+        "sunset": 1770846321
+      },
+      "timezone": -14400,
+      "id": 6138517,
+      "name": "Saint John",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Miramichi,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -65.4654,
+        "lat": 47.0043
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -3.22,
+        "feels_like": -8.5,
+        "temp_min": -3.22,
+        "temp_max": -3.22,
+        "pressure": 1001,
+        "humidity": 96,
+        "sea_level": 1001,
+        "grnd_level": 995
+      },
+      "visibility": 156,
+      "wind": {
+        "speed": 4.35,
+        "deg": 31,
+        "gust": 10.61
+      },
+      "snow": {
+        "1h": 0.25
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864521,
+      "sys": {
+        "country": "CA",
+        "sunrise": 1770809578,
+        "sunset": 1770845964
+      },
+      "timezone": -14400,
+      "id": 6075081,
+      "name": "Miramichi",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Bathurst,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -65.6511,
+        "lat": 47.6181
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -2.75,
+        "feels_like": -6.36,
+        "temp_min": -2.75,
+        "temp_max": -2.75,
+        "pressure": 1003,
+        "humidity": 93,
+        "sea_level": 1003,
+        "grnd_level": 994
+      },
+      "visibility": 2012,
+      "wind": {
+        "speed": 2.57,
+        "deg": 30
+      },
+      "snow": {
+        "1h": 0.21
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864521,
+      "sys": {
+        "type": 1,
+        "id": 1017,
+        "country": "CA",
+        "sunrise": 1770809701,
+        "sunset": 1770845930
+      },
+      "timezone": -14400,
+      "id": 6696259,
+      "name": "Bathurst",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Edmundston,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -68.3251,
+        "lat": 47.3737
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        },
+        {
+          "id": 701,
+          "main": "Mist",
+          "description": "mist",
+          "icon": "50n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -4.19,
+        "feels_like": -9.1,
+        "temp_min": -4.63,
+        "temp_max": -3.47,
+        "pressure": 1004,
+        "humidity": 93,
+        "sea_level": 1004,
+        "grnd_level": 972
+      },
+      "visibility": 2414,
+      "wind": {
+        "speed": 3.6,
+        "deg": 350
+      },
+      "snow": {
+        "1h": 0.24
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864522,
+      "sys": {
+        "type": 1,
+        "id": 94,
+        "country": "CA",
+        "sunrise": 1770810311,
+        "sunset": 1770846604
+      },
+      "timezone": -14400,
+      "id": 6545023,
+      "name": "Edmundston",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Campbellton,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -66.6727,
+        "lat": 48.0075
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -1.75,
+        "feels_like": -4.71,
+        "temp_min": -1.75,
+        "temp_max": -1.75,
+        "pressure": 1004,
+        "humidity": 96,
+        "sea_level": 1004,
+        "grnd_level": 982
+      },
+      "visibility": 458,
+      "wind": {
+        "speed": 2.17,
+        "deg": 17,
+        "gust": 6.59
+      },
+      "snow": {
+        "1h": 0.15
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864522,
+      "sys": {
+        "type": 1,
+        "id": 1027,
+        "country": "CA",
+        "sunrise": 1770809997,
+        "sunset": 1770846124
+      },
+      "timezone": -14400,
+      "id": 6696258,
+      "name": "Campbellton",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Woodstock,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -80.7497,
+        "lat": 43.1334
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -3.85,
+        "feels_like": -8.25,
+        "temp_min": -4.37,
+        "temp_max": -3.85,
+        "pressure": 1020,
+        "humidity": 89,
+        "sea_level": 1020,
+        "grnd_level": 980
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.13,
+        "deg": 281,
+        "gust": 3.58
+      },
+      "snow": {
+        "1h": 0.1
+      },
+      "clouds": {
+        "all": 45
+      },
+      "dt": 1770864297,
+      "sys": {
+        "type": 2,
+        "id": 2001970,
+        "country": "CA",
+        "sunrise": 1770812786,
+        "sunset": 1770850092
+      },
+      "timezone": -18000,
+      "id": 6184365,
+      "name": "Woodstock",
+      "cod": 200
+    }
+  },
+  {
+    "query": "Dieppe,CA",
+    "status": 200,
+    "data": {
+      "coord": {
+        "lon": -64.6873,
+        "lat": 46.0784
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -1.97,
+        "feels_like": -8.77,
+        "temp_min": -2.14,
+        "temp_max": -1.84,
+        "pressure": 998,
+        "humidity": 95,
+        "sea_level": 998,
+        "grnd_level": 990
+      },
+      "visibility": 8047,
+      "wind": {
+        "speed": 7.72,
+        "deg": 40
+      },
+      "snow": {
+        "1h": 0.24
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1770864522,
+      "sys": {
+        "type": 1,
+        "id": 898,
+        "country": "CA",
+        "sunrise": 1770809276,
+        "sunset": 1770845892
+      },
+      "timezone": -14400,
+      "id": 5939219,
+      "name": "Dieppe",
+      "cod": 200
+    }
+  }
+]

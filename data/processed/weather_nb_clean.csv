@@ -1,0 +1,10 @@
+city,country,observed_at_utc,temp_c,humidity_pct,pressure_hpa,wind_speed_mps,weather_main,weather_desc,status,error,source_file,ingested_at_utc
+Fredericton,CA,2026-02-19T23:56:00+00:00,-2.63,43,1018,2.06,Clear,clear sky,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193082+00:00
+Moncton,CA,2026-02-19T23:56:00+00:00,-1.73,69,1016,4.63,Clouds,few clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193102+00:00
+Saint John,CA,2026-02-19T23:52:00+00:00,-1.43,43,1018,3.09,Clouds,few clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193115+00:00
+Miramichi,CA,2026-02-19T23:56:00+00:00,-4.33,78,1017,3.67,Clouds,broken clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193132+00:00
+Bathurst,CA,2026-02-19T23:56:01+00:00,-2.75,63,1017,2.06,Clear,clear sky,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193143+00:00
+Edmundston,CA,2026-02-19T23:56:01+00:00,-7.87,86,1020,0.51,Clear,clear sky,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193154+00:00
+Campbellton,CA,2026-02-19T23:56:01+00:00,-4.75,93,1018,2.0,Clouds,overcast clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193165+00:00
+Woodstock,CA,2026-02-19T23:55:14+00:00,-0.52,95,1011,7.11,Clouds,overcast clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193175+00:00
+Dieppe,CA,2026-02-19T23:56:01+00:00,-1.84,69,1016,4.63,Clouds,few clouds,200,,weather_nb_20260220_000001.json,2026-02-20T00:00:05.193185+00:00
