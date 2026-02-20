@@ -1,7 +1,7 @@
 # Description
 
 
-Bulid a Data Engineering pipeline that collects live weather data, stores it, checks quality, and reports issues automatically.
+Bulit a Data Engineering pipeline that collects live weather data, stores it, checks quality, and reports issues automatically.
 ## What the pipeline does
 
 ### Ingests data
